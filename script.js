@@ -182,7 +182,7 @@ const initializer = () => {
         drawMan(count);
         //Count==6 because head,body,left arm, right arm,left leg,right leg
         if (count == 6) {
-          resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`;
+          resultText.innerHTML = `<h2 class='lose-msg'>You Lose! &#128561;</h2><p>The word was <span>${chosenWord}</span></p>`;
           blocker();
         }
       }
