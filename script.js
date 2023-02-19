@@ -10,12 +10,26 @@ const resultText = document.getElementById("result-text");
 //Options values for buttons
 let options = {
   fruits: [
-    "Apple",
-    "Blueberry",
-    "Mandarin",
-    "Pineapple",
-    "Pomegranate",
-    "Watermelon",
+    'apple', 
+    'banana', 
+    'orange', 
+    'strawberry', 
+    'grape', 
+    'pineapple', 
+    'mango', 
+    'kiwi', 
+    'pear', 
+    'watermelon', 
+    'blueberry', 
+    'peach', 
+    'apricot', 
+    'plum', 
+    'cherry', 
+    'raspberry', 
+    'blackberry', 
+    'pomegranate', 
+    'lemon', 
+    'lime'
   ],
   animals: ["Hedgehog", "Rhinoceros", "Squirrel", "Panther", "Walrus", "Zebra"],
   countries: [
